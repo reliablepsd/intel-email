@@ -4,7 +4,21 @@
 		font-style: normal;
 		font-weight: 300;
 		font-display: swap;
-		src: url(assets/font/) format('woff2');
+		src: url(../assets/fonts/IntelOneDisplayLight.woff) format('woff');
+	}
+	@font-face {
+		font-family: 'IntelOneDisplay';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(../assets/fonts/IntelOneDisplayRegular.woff) format('woff');
+	}
+	@font-face {
+		font-family: 'IntelOneDisplay';
+		font-style: normal;
+		font-weight: 500;
+		font-display: swap;
+		src: url(../assets/fonts/IntelOneDisplayMedium.woff) format('woff');
 	}
 }
 
@@ -40,6 +54,18 @@
 }
 
 body {
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'IntelOneDisplay', Verdana, sans-serif;
+	}
+	h1 {
+		font-weight: 300;
+	}
+	h2 {
+		font-weight: 400;
+	}
+	h3 {
+		font-weight: 500;
+	}
 	p {
 		a {
 			display: inline;
