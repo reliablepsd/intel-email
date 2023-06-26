@@ -4,21 +4,21 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url(../assets/fonts/IntelOneDisplayLight.woff) format("woff");
+    src: url(assets/fonts/IntelOneDisplayLight.woff) format("woff");
   }
   @font-face {
     font-family: "IntelOneDisplay";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../assets/fonts/IntelOneDisplayRegular.woff) format("woff");
+    src: url(assets/fonts/IntelOneDisplayRegular.woff) format("woff");
   }
   @font-face {
     font-family: "IntelOneDisplay";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(../assets/fonts/IntelOneDisplayMedium.woff) format("woff");
+    src: url(assets/fonts/IntelOneDisplayMedium.woff) format("woff");
   }
 }
 
@@ -577,7 +577,7 @@ body img {
     margin-bottom: 10px !important;
   }
   .header {
-    background-image: url(../assets/img/img1mob.jpg) !important;
+    background-image: url(assets/img/img1mob.jpg) !important;
   }
   .header h1 {
     font-size: 26px !important;
@@ -595,14 +595,14 @@ body img {
     margin-right: 24px !important;
   }
   .unlimate {
-    background-image: url(../assets/img/img2mob.jpg) !important;
+    background-image: url(assets/img/img2mob.jpg) !important;
   }
   .unlimate-td {
     padding-top: 218px !important;
     padding-bottom: 20px !important;
   }
   .up54 {
-    background-image: url(../assets/img/img3mob.jpg) !important;
+    background-image: url(assets/img/img3mob.jpg) !important;
   }
   .up54 h3 {
     font-size: 28px !important;
@@ -613,14 +613,14 @@ body img {
     padding-bottom: 30px !important;
   }
   .ideal {
-    background-image: url(../assets/img/img4mob.jpg) !important;
+    background-image: url(assets/img/img4mob.jpg) !important;
   }
   .ideal-td {
     padding-top: 180px !important;
     padding-bottom: 20px !important;
   }
   .up20 {
-    background-image: url(../assets/img/img5mob.jpg) !important;
+    background-image: url(assets/img/img5mob.jpg) !important;
   }
   .up20 h3 {
     font-size: 28px !important;

@@ -1,4 +1,6 @@
+$rootForProd: "assets/";
 $root: "../assets/";
+$root: $rootForProd;
 @media screen {
 	@font-face {
 		font-family: 'IntelOneDisplay';
