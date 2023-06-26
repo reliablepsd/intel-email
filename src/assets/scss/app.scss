@@ -1,24 +1,25 @@
+$root: "../assets/";
 @media screen {
 	@font-face {
 		font-family: 'IntelOneDisplay';
 		font-style: normal;
 		font-weight: 300;
 		font-display: swap;
-		src: url(../assets/fonts/IntelOneDisplayLight.woff) format('woff');
+		src: url(#{$root}fonts/IntelOneDisplayLight.woff) format('woff');
 	}
 	@font-face {
 		font-family: 'IntelOneDisplay';
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url(../assets/fonts/IntelOneDisplayRegular.woff) format('woff');
+		src: url(#{$root}fonts/IntelOneDisplayRegular.woff) format('woff');
 	}
 	@font-face {
 		font-family: 'IntelOneDisplay';
 		font-style: normal;
 		font-weight: 500;
 		font-display: swap;
-		src: url(../assets/fonts/IntelOneDisplayMedium.woff) format('woff');
+		src: url(#{$root}fonts/IntelOneDisplayMedium.woff) format('woff');
 	}
 }
 
@@ -146,6 +147,7 @@ p {}
 }
 // block
 .header {
+	background-size: cover !important;
 	h1, p {
 		text-align: right;
 	}
@@ -187,27 +189,27 @@ p {}
 	}
 }
 .unlimate {
-
+	background-size: cover;
 }
 .unlimate-td {
 	padding-top: 340px;
 	padding-bottom: 10px;
 }
 .up54 {
-
+	background-size: cover;
 }
 .up54-td {
 	padding-top: 16px;
 	padding-bottom: 0px;
 }
 .ideal {
-
+	background-size: cover;
 }
 .ideal-td {
 
 }
 .up20 {
-
+	background-size: cover;
 }
 .up20-td {
 	padding-top: 16px;
@@ -265,13 +267,131 @@ padding-bottom: 20px;
 		line-height: 1.1;
 	}
 }
+.mbimg {
+	margin-bottom: 20px;
+}
 .footer-td {
 	padding-top: 38px;
 	padding-bottom: 30px;
 }
 // media
 @media only screen and (max-width: #{$global-breakpoint}) {
-	br {
-		display: none;
+	br.s-hide {
+		display: none !important;
 	}
+	.wrap-td {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+	}
+
+	.logo img {
+		width: 53px !important;
+	}
+	h2 {
+		font-size: 18px !important;
+	}
+	h3 {}
+	p {
+		font-size: 12px !important;
+		line-height: 1.2 !important;
+		margin-bottom: 10px !important;
+	}
+	.header {
+		background-image: url(#{$root}img/img1mob.jpg) !important;
+	h1 {
+		font-size: 26px !important;
+		margin-bottom: 5px !important;
+		span {
+			padding: 3px 10px 3px !important;
+		}
+	}
+	}
+	.header-td {
+		padding-top: 32px !important;
+		padding-bottom: 0px !important;
+	}
+	.mbimg {
+		margin-bottom: 0px !important;
+		margin-right: 24px !important;
+	}
+	.unlimate {
+		background-image: url(#{$root}img/img2mob.jpg) !important;
+	}
+	.unlimate-td {
+		padding-top: 218px !important;
+		padding-bottom: 20px !important;
+	}
+
+	.up54 {
+		background-image: url(#{$root}img/img3mob.jpg) !important;
+		h3 {
+			font-size: 28px !important;
+			margin-bottom: 30px !important;
+		}
+	}
+
+	.up54-td {
+		padding-top: 18px !important;
+		padding-bottom: 30px !important;
+	}
+
+	.ideal {
+		background-image: url(#{$root}img/img4mob.jpg) !important;
+	}
+	.ideal-td  {
+		padding-top: 180px !important;
+		padding-bottom: 20px !important;
+	}
+
+	.up20 {
+		background-image: url(#{$root}img/img5mob.jpg) !important;
+		h3 {
+			font-size: 28px !important;
+			margin-bottom: 30px !important;
+		}
+	}
+
+	.up20 {
+		padding-top: 18px !important;
+		padding-bottom: 30px !important;
+	}
+
+	.gray-b {
+		h4 {
+			font-size: 12px !important;
+		}
+	}
+	.gray-b-td {
+    padding-top: 12px !important;
+    padding-bottom: 0px !important;
+}
+	table.body .gray-b-img.columns {
+		padding-right: 0 !important;
+	}
+
+	.footer {
+p {
+	font-size: 8px !important;
+	margin-bottom: 5px !important;
+}
+	}
+
+	.footer-td {
+    padding-top: 22px !important;
+    padding-bottom: 0px !important;
+}
+
+
+	.callout {
+		.callout-inner {
+			padding: 20px 10px 0px !important;
+		}
+		h2 {
+			font-size: 76px !important;
+		}
+		p {
+			font-size: 20px !important;
+		}
+	}
+
 }

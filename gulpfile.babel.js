@@ -24,13 +24,18 @@ const EMAIL = yargs.argv.to;
 // Declar var so that both AWS and Litmus task can use it.
 var CONFIG;
 
+function fonts() {
+  return gulp.src('src/assets/fonts/**/*')
+	.pipe(gulp.dest('./docs/assets/fonts'));
+}
+
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-  gulp.series(clean, pages, sass, images, inline));
+  gulp.series(clean, pages, sass, images, inline, fonts));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default',
-  gulp.series('build', server, watch));
+  gulp.series('build', server, fonts, watch));
 
 // Build emails, then send to litmus
 gulp.task('litmus',
