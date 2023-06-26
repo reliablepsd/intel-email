@@ -4,21 +4,21 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url(assets/fonts/IntelOneDisplayLight.woff) format("woff");
+    src: url(https://reliablepsd.github.io/intel-email/assets/fonts/IntelOneDisplayLight.woff) format("woff");
   }
   @font-face {
     font-family: "IntelOneDisplay";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(assets/fonts/IntelOneDisplayRegular.woff) format("woff");
+    src: url(https://reliablepsd.github.io/intel-email/assets/fonts/IntelOneDisplayRegular.woff) format("woff");
   }
   @font-face {
     font-family: "IntelOneDisplay";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(assets/fonts/IntelOneDisplayMedium.woff) format("woff");
+    src: url(https://reliablepsd.github.io/intel-email/assets/fonts/IntelOneDisplayMedium.woff) format("woff");
   }
 }
 

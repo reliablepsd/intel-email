@@ -1,5 +1,6 @@
+$rootForBuild: "../assets/";
 $rootForProd: "assets/";
-$root: "../assets/";
+$rootFonts: "https://reliablepsd.github.io/intel-email/assets/";
 $root: $rootForProd;
 @media screen {
 	@font-face {
@@ -7,21 +8,21 @@ $root: $rootForProd;
 		font-style: normal;
 		font-weight: 300;
 		font-display: swap;
-		src: url(#{$root}fonts/IntelOneDisplayLight.woff) format('woff');
+		src: url(#{$rootFonts}fonts/IntelOneDisplayLight.woff) format('woff');
 	}
 	@font-face {
 		font-family: 'IntelOneDisplay';
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url(#{$root}fonts/IntelOneDisplayRegular.woff) format('woff');
+		src: url(#{$rootFonts}fonts/IntelOneDisplayRegular.woff) format('woff');
 	}
 	@font-face {
 		font-family: 'IntelOneDisplay';
 		font-style: normal;
 		font-weight: 500;
 		font-display: swap;
-		src: url(#{$root}fonts/IntelOneDisplayMedium.woff) format('woff');
+		src: url(#{$rootFonts}fonts/IntelOneDisplayMedium.woff) format('woff');
 	}
 }
 
