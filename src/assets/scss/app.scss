@@ -1,7 +1,8 @@
 $rootForBuild: "../assets/";
 $rootForProd: "assets/";
 $rootFonts: "https://reliablepsd.github.io/intel-email/assets/";
-$root: $rootForProd;
+$rootImg: "https://reliablepsd.github.io/intel-email/assets/";
+
 @media screen {
 	@font-face {
 		font-family: 'IntelOneDisplay';
@@ -10,6 +11,7 @@ $root: $rootForProd;
 		font-display: swap;
 		src: url(#{$rootFonts}fonts/IntelOneDisplayLight.woff) format('woff');
 	}
+
 	@font-face {
 		font-family: 'IntelOneDisplay';
 		font-style: normal;
@@ -17,6 +19,7 @@ $root: $rootForProd;
 		font-display: swap;
 		src: url(#{$rootFonts}fonts/IntelOneDisplayRegular.woff) format('woff');
 	}
+
 	@font-face {
 		font-family: 'IntelOneDisplay';
 		font-style: normal;
@@ -30,8 +33,10 @@ $root: $rootForProd;
 @import 'scss/foundation-emails';
 
 @media screen {
+
 	// fix button and link hover
 	a {
+
 		&:hover,
 		&:active,
 		&:active {
@@ -39,6 +44,7 @@ $root: $rootForProd;
 			text-decoration: underline !important;
 		}
 	}
+
 	// buttons
 	table.button:hover,
 	table.button:visited,
@@ -46,43 +52,55 @@ $root: $rootForProd;
 		table {
 			td a {
 				background-color: darken($color: #71c8fc, $amount: 10%) !important;
-				color: $button-color !important;
+				color: $button-color  !important;
 			}
 		}
 	}
 }
 
 body {
-	h1, h2, h3 {
+
+	h1,
+	h2,
+	h3 {
 		font-family: 'IntelOneDisplay', Verdana, sans-serif;
 	}
+
 	h1 {
 		font-weight: 300;
 		line-height: 1.1;
 	}
+
 	h2 {
 		line-height: 1;
 		font-weight: 400;
 		margin-bottom: 6px;
+		Margin-bottom: 6px;
+
 		sup {
 			font-size: 8px;
 		}
 	}
+
 	h3 {
 		font-weight: 400;
 		line-height: 1.2;
+
 		sup {
 			font-size: 14px;
 		}
 	}
+
 	h4 {
 		line-height: 1.2;
 	}
+
 	p {
 		sup {
 			font-size: 8px;
 		}
 	}
+
 	p,
 	h5,
 	h6 {
@@ -98,11 +116,13 @@ body {
 
 	table.button {
 		margin-bottom: 24px;
+		Margin-bottom: 24px;
 
 		table td a {
 			line-height: 1.4;
 		}
-		&.secondary  {}
+
+		&.secondary {}
 	}
 }
 
@@ -116,9 +136,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-
-}
+h6 {}
 
 p {}
 
@@ -145,25 +163,33 @@ p {}
 		vertical-align: middle;
 	}
 }
+
 .mb0 {
 	margin-bottom: 0;
+	Margin-bottom: 0;
 }
+
 // block
 .header {
 	background-size: cover !important;
-	h1, p {
+
+	h1,
+	p {
 		text-align: right;
 	}
+
 	h1 {
 		margin-bottom: 15px;
 		Margin-bottom: 15px;
+
 		span {
 			padding: 8px 24px 10px 30px;
 			display: inline-block;
 			background: #0f459d;
-			background: rgba(#0f459d,0.8);
+			background-color: rgba(#0f459d, 0.8);
 		}
 	}
+
 	h6 {
 		text-align: right;
 	}
@@ -176,47 +202,58 @@ p {}
 
 .body1 {
 	background: #fff;
+
 	p {
 		color: #14224f;
 	}
 }
+
 .body1-td {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 .columns.img-b {
 	width: 90px;
+
 	img {
 		max-width: 84px;
 		width: 100%;
 	}
 }
+
 .unlimate {
 	background-size: cover;
 }
+
 .unlimate-td {
 	padding-top: 340px;
 	padding-bottom: 10px;
 }
+
 .up54 {
 	background-size: cover;
 }
+
 .up54-td {
 	padding-top: 16px;
 	padding-bottom: 0px;
 }
+
 .ideal {
 	background-size: cover;
 }
-.ideal-td {
 
-}
+.ideal-td {}
+
 .up20 {
 	background-size: cover;
 }
+
 .up20-td {
 	padding-top: 16px;
 }
+
 .ideal-td {
 	padding-top: 240px;
 	padding-bottom: 10px;
@@ -226,20 +263,25 @@ p {}
 	p {
 		color: #14224f;
 		margin-bottom: 0;
+		Margin-bottom: 0;
 		line-height: 1.1;
 	}
+
 	h2 {
 		font-size: 64px;
 		color: #71c8fc;
 		font-weight: 500;
 		word-break: break-word;
 	}
+
 	th.callout-inner.call-v2 {
 		border: 2px solid #ffffff;
 		padding: 16px 24px;
 		background: #0f459d;
-    background: rgba(#0f459d, 0.8);
-		h2, p {
+		background-color: rgba(#0f459d, 0.8);
+
+		h2,
+		p {
 			color: #ffffff;
 		}
 	}
@@ -250,8 +292,8 @@ p {}
 }
 
 .gray-b-td {
-padding-top: 25px;
-padding-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 20px;
 }
 
 .columns.gray-b-img {
@@ -264,72 +306,96 @@ padding-bottom: 20px;
 
 .footer {
 	background: #0168b5;
+
 	p {
 		font-size: 8px;
 		margin-bottom: 9px;
+		Margin-bottom: 9px;
 		line-height: 1.1;
 	}
 }
+
 .mbimg {
 	margin-bottom: 20px;
+	Margin-bottom: 20px;
+
 }
+
 .footer-td {
 	padding-top: 38px;
 	padding-bottom: 30px;
 }
+
 // media
 @media only screen and (max-width: #{$global-breakpoint}) {
 	br.s-hide {
 		display: none !important;
 	}
+
 	.wrap-td {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
 	}
 
 	.logo img {
 		width: 53px !important;
 	}
+
 	h2 {
 		font-size: 18px !important;
 	}
+
 	h3 {}
+
 	p {
 		font-size: 12px !important;
 		line-height: 1.2 !important;
 		margin-bottom: 10px !important;
+		Margin-bottom: 10px !important;
 	}
+
 	.header {
-		background-image: url(#{$root}img/img1mob.jpg) !important;
-	h1 {
-		font-size: 26px !important;
-		margin-bottom: 5px !important;
-		span {
-			padding: 3px 10px 3px !important;
+		background-image: url(#{$rootImg}img/img1mob.jpg) !important;
+
+		h1 {
+			font-size: 26px !important;
+			margin-bottom: 5px !important;
+			Margin-bottom: 5px !important;
+
+			span {
+				padding: 3px 10px 3px !important;
+			}
 		}
 	}
-	}
+
 	.header-td {
 		padding-top: 32px !important;
 		padding-bottom: 0px !important;
 	}
+
 	.mbimg {
 		margin-bottom: 0px !important;
+		Margin-bottom: 0px !important;
 		margin-right: 24px !important;
+		Margin-right: 24px !important;
 	}
+
 	.unlimate {
-		background-image: url(#{$root}img/img2mob.jpg) !important;
+		background-image: url(#{$rootImg}img/img2mob.jpg) !important;
 	}
+
 	.unlimate-td {
 		padding-top: 218px !important;
 		padding-bottom: 20px !important;
 	}
 
 	.up54 {
-		background-image: url(#{$root}img/img3mob.jpg) !important;
+		background-image: url(#{$rootImg}img/img3mob.jpg) !important;
+
 		h3 {
 			font-size: 28px !important;
 			margin-bottom: 30px !important;
+			Margin-bottom: 30px !important;
 		}
 	}
 
@@ -339,18 +405,21 @@ padding-bottom: 20px;
 	}
 
 	.ideal {
-		background-image: url(#{$root}img/img4mob.jpg) !important;
+		background-image: url(#{$rootImg}img/img4mob.jpg) !important;
 	}
-	.ideal-td  {
+
+	.ideal-td {
 		padding-top: 180px !important;
 		padding-bottom: 20px !important;
 	}
 
 	.up20 {
-		background-image: url(#{$root}img/img5mob.jpg) !important;
+		background-image: url(#{$rootImg}img/img5mob.jpg) !important;
+
 		h3 {
 			font-size: 28px !important;
 			margin-bottom: 30px !important;
+			Margin-bottom: 30px !important;
 		}
 	}
 
@@ -364,37 +433,41 @@ padding-bottom: 20px;
 			font-size: 12px !important;
 		}
 	}
+
 	.gray-b-td {
-    padding-top: 12px !important;
-    padding-bottom: 0px !important;
-}
+		padding-top: 12px !important;
+		padding-bottom: 0px !important;
+	}
+
 	table.body .gray-b-img.columns {
 		padding-right: 0 !important;
 	}
 
 	.footer {
-p {
-	font-size: 8px !important;
-	margin-bottom: 5px !important;
-}
+		p {
+			font-size: 8px !important;
+			margin-bottom: 5px !important;
+			Margin-bottom: 5px !important;
+		}
 	}
 
 	.footer-td {
-    padding-top: 22px !important;
-    padding-bottom: 0px !important;
-}
+		padding-top: 22px !important;
+		padding-bottom: 0px !important;
+	}
 
 
 	.callout {
 		.callout-inner {
 			padding: 20px 10px 0px !important;
 		}
+
 		h2 {
 			font-size: 76px !important;
 		}
+
 		p {
 			font-size: 20px !important;
 		}
 	}
-
 }

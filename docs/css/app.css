@@ -384,7 +384,9 @@ th.callout-inner {
     text-decoration: underline !important;
   }
 }
-body h1, body h2, body h3 {
+body h1,
+body h2,
+body h3 {
   font-family: "IntelOneDisplay", Verdana, sans-serif;
 }
 body h1 {
@@ -395,6 +397,7 @@ body h2 {
   line-height: 1;
   font-weight: 400;
   margin-bottom: 6px;
+  Margin-bottom: 6px;
 }
 body h3 {
   font-weight: 400;
@@ -422,12 +425,14 @@ body img {
 
 .mb0 {
   margin-bottom: 0;
+  Margin-bottom: 0;
 }
 
 .header {
   background-size: cover !important;
 }
-.header h1, .header p {
+.header h1,
+.header p {
   text-align: right;
 }
 .header h1 {
@@ -438,7 +443,7 @@ body img {
   padding: 8px 24px 10px 30px;
   display: inline-block;
   background: #0f459d;
-  background: rgba(15, 69, 157, 0.8);
+  background-color: rgba(15, 69, 157, 0.8);
 }
 
 .header-td {
@@ -504,6 +509,7 @@ body img {
 .callout p {
   color: #14224f;
   margin-bottom: 0;
+  Margin-bottom: 0;
   line-height: 1.1;
 }
 .callout h2 {
@@ -516,9 +522,10 @@ body img {
   border: 2px solid #ffffff;
   padding: 16px 24px;
   background: #0f459d;
-  background: rgba(15, 69, 157, 0.8);
+  background-color: rgba(15, 69, 157, 0.8);
 }
-.callout th.callout-inner.call-v2 h2, .callout th.callout-inner.call-v2 p {
+.callout th.callout-inner.call-v2 h2,
+.callout th.callout-inner.call-v2 p {
   color: #ffffff;
 }
 
@@ -545,11 +552,13 @@ body img {
 .footer p {
   font-size: 8px;
   margin-bottom: 9px;
+  Margin-bottom: 9px;
   line-height: 1.1;
 }
 
 .mbimg {
   margin-bottom: 20px;
+  Margin-bottom: 20px;
 }
 
 .footer-td {
@@ -575,13 +584,15 @@ body img {
     font-size: 12px !important;
     line-height: 1.2 !important;
     margin-bottom: 10px !important;
+    Margin-bottom: 10px !important;
   }
   .header {
-    background-image: url(assets/img/img1mob.jpg) !important;
+    background-image: url(https://reliablepsd.github.io/intel-email/assets/img/img1mob.jpg) !important;
   }
   .header h1 {
     font-size: 26px !important;
     margin-bottom: 5px !important;
+    Margin-bottom: 5px !important;
   }
   .header h1 span {
     padding: 3px 10px 3px !important;
@@ -592,39 +603,43 @@ body img {
   }
   .mbimg {
     margin-bottom: 0px !important;
+    Margin-bottom: 0px !important;
     margin-right: 24px !important;
+    Margin-right: 24px !important;
   }
   .unlimate {
-    background-image: url(assets/img/img2mob.jpg) !important;
+    background-image: url(https://reliablepsd.github.io/intel-email/assets/img/img2mob.jpg) !important;
   }
   .unlimate-td {
     padding-top: 218px !important;
     padding-bottom: 20px !important;
   }
   .up54 {
-    background-image: url(assets/img/img3mob.jpg) !important;
+    background-image: url(https://reliablepsd.github.io/intel-email/assets/img/img3mob.jpg) !important;
   }
   .up54 h3 {
     font-size: 28px !important;
     margin-bottom: 30px !important;
+    Margin-bottom: 30px !important;
   }
   .up54-td {
     padding-top: 18px !important;
     padding-bottom: 30px !important;
   }
   .ideal {
-    background-image: url(assets/img/img4mob.jpg) !important;
+    background-image: url(https://reliablepsd.github.io/intel-email/assets/img/img4mob.jpg) !important;
   }
   .ideal-td {
     padding-top: 180px !important;
     padding-bottom: 20px !important;
   }
   .up20 {
-    background-image: url(assets/img/img5mob.jpg) !important;
+    background-image: url(https://reliablepsd.github.io/intel-email/assets/img/img5mob.jpg) !important;
   }
   .up20 h3 {
     font-size: 28px !important;
     margin-bottom: 30px !important;
+    Margin-bottom: 30px !important;
   }
   .up20 {
     padding-top: 18px !important;
@@ -643,6 +658,7 @@ body img {
   .footer p {
     font-size: 8px !important;
     margin-bottom: 5px !important;
+    Margin-bottom: 5px !important;
   }
   .footer-td {
     padding-top: 22px !important;
