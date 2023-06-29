@@ -209,12 +209,14 @@ p {}
 }
 
 .body1-td {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 24px;
+	padding-right: 40px;
 }
 
 .columns.img-b {
-	width: 90px;
+	// width: 90px;
 
 	img {
 		max-width: 84px;
@@ -316,9 +318,8 @@ p {}
 }
 
 .mbimg {
-	margin-bottom: 20px;
-	Margin-bottom: 20px;
-
+	// margin-bottom: 20px;
+	// Margin-bottom: 20px;
 }
 
 .footer-td {
@@ -328,6 +329,16 @@ p {}
 
 // media
 @media only screen and (max-width: #{$global-breakpoint}) {
+	.up54 th.callout-inner {
+    background: #ffffff !important;
+    background-color: rgba($color: #ffffff, $alpha: 0.8) !important;
+	}
+	html .body1-td {
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
 	br.s-hide {
 		display: none !important;
 	}
@@ -374,10 +385,10 @@ p {}
 	}
 
 	.mbimg {
-		margin-bottom: 0px !important;
-		Margin-bottom: 0px !important;
-		margin-right: 24px !important;
-		Margin-right: 24px !important;
+		// margin-bottom: 0px !important;
+		// Margin-bottom: 0px !important;
+		// margin-right: 24px !important;
+		// Margin-right: 24px !important;
 	}
 
 	.unlimate {

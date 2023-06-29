@@ -121,9 +121,9 @@ $button-rounded: 4px;
 
 $callout-background: #ffffff;
 $callout-background-fade: 85%;
-$callout-padding: 6px 10px;
+$callout-padding: 6px 8px;
 $callout-margin-bottom: $global-margin;
-$callout-border: none;
+$callout-border: 2px solid #14224f;
 $callout-border-secondary: 1px solid darken($secondary-color, 20%);
 $callout-border-success: none;
 $callout-border-warning: 1px solid darken($warning-color, 20%);

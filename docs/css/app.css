@@ -134,6 +134,15 @@ th.large-2.first {
   padding-left: 24px;
 }
 
+.collapse > tbody > tr > th.large-2:not([class*=large-offset]) {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100px;
+}
+.collapse > tbody > tr th.large-2.first {
+  width: 112px;
+}
+
 th.large-4 {
   width: 176px;
   padding-left: 12px;
@@ -170,6 +179,15 @@ th.large-10 {
 
 th.large-10.last {
   padding-right: 24px;
+}
+
+.collapse > tbody > tr > th.large-10:not([class*=large-offset]) {
+  padding-right: 0;
+  padding-left: 0;
+  width: 500px;
+}
+.collapse > tbody > tr th.large-10.last {
+  width: 512px;
 }
 
 th.large-12 {
@@ -338,8 +356,8 @@ table.callout {
 
 th.callout-inner {
   width: 100%;
-  border: none;
-  padding: 6px 10px;
+  border: 2px solid #14224f;
+  padding: 6px 8px;
   background: #ffffff;
 }
 
@@ -362,6 +380,10 @@ th.callout-inner {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+  table.body .collapse > tbody > tr > .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   th.small-3 {
     display: inline-block !important;
     width: 25% !important;
@@ -375,7 +397,7 @@ th.callout-inner {
     width: 100% !important;
   }
   th.callout-inner {
-    padding: 6px 10px !important;
+    padding: 6px 8px !important;
   }
 }
 @media screen {
@@ -459,13 +481,12 @@ body img {
 }
 
 .body1-td {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 24px;
+  padding-right: 40px;
 }
 
-.columns.img-b {
-  width: 90px;
-}
 .columns.img-b img {
   max-width: 84px;
   width: 100%;
@@ -556,17 +577,22 @@ body img {
   line-height: 1.1;
 }
 
-.mbimg {
-  margin-bottom: 20px;
-  Margin-bottom: 20px;
-}
-
 .footer-td {
   padding-top: 38px;
   padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 624px) {
+  .up54 th.callout-inner {
+    background: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  html .body1-td {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
   br.s-hide {
     display: none !important;
   }
@@ -600,12 +626,6 @@ body img {
   .header-td {
     padding-top: 32px !important;
     padding-bottom: 0px !important;
-  }
-  .mbimg {
-    margin-bottom: 0px !important;
-    Margin-bottom: 0px !important;
-    margin-right: 24px !important;
-    Margin-right: 24px !important;
   }
   .unlimate {
     background-image: url(https://reliablepsd.github.io/intel-email/assets/img/img2mob.jpg) !important;
