@@ -535,6 +535,7 @@ body img {
 }
 .callout h2 {
   font-size: 64px;
+  font-size: 56px;
   color: #71c8fc;
   font-weight: 500;
   word-break: break-word;
@@ -583,9 +584,19 @@ body img {
 }
 
 @media only screen and (max-width: 624px) {
+  .img-b {
+    padding-bottom: 0 !important;
+  }
+  .img-b img {
+    max-width: 140px !important;
+    width: 140px !important;
+  }
   .up54 th.callout-inner {
     background: #ffffff !important;
     background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  .up54 th.callout-inner h2 {
+    color: #2a59bb !important;
   }
   html .body1-td {
     padding-left: 30px !important;
