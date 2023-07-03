@@ -1,7 +1,8 @@
-$rootForBuild: "../assets/";
-$rootForProd: "assets/";
+// $rootForBuild: "../assets/";
 $rootFonts: "https://reliablepsd.github.io/intel-email/assets/";
 $rootImg: "https://reliablepsd.github.io/intel-email/assets/";
+// $rootFonts: "./assets/";
+// $rootImg: "./assets/";
 
 @media screen {
 	@font-face {
@@ -136,7 +137,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {}
+h6 {
+	color: #ffffff;
+}
 
 p {}
 

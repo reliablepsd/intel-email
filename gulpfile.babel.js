@@ -134,6 +134,8 @@ function inliner(css) {
     })
     .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
     .pipe($.replace, '<link rel="stylesheet" type="text/css" href="css/app.css">', '')
+    .pipe($.replace, 'rootPathServer', 'https://reliablepsd.github.io/intel-email')
+    .pipe($.replace, 'rootPathLocal', '.')
     // .pipe($.htmlmin, {
     //   collapseWhitespace: true,
     //   minifyCSS: true
