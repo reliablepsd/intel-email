@@ -61,6 +61,10 @@ $rootImg: "https://reliablepsd.github.io/intel-email/assets/";
 
 body {
 
+	sup {
+    vertical-align: top;
+	}
+
 	h1,
 	h2,
 	h3 {
@@ -88,7 +92,7 @@ body {
 		line-height: 1.2;
 
 		sup {
-			font-size: 14px;
+			font-size: 17px;
 		}
 	}
 
@@ -271,6 +275,17 @@ p {}
 		margin-bottom: 0;
 		Margin-bottom: 0;
 		line-height: 1.1;
+		span {
+			font-family: 'IntelOneDisplay', Verdana, sans-serif;
+			font-size: 64px;
+			font-size: 56px;
+			line-height: 1;
+			color: #71c8fc;
+			font-weight: 500;
+			word-break: break-word;
+			margin-bottom: 5px;
+			display: inline-block;
+		}
 	}
 
 	h2 {
@@ -288,7 +303,8 @@ p {}
 		background-color: rgba(#0f459d, 0.8);
 
 		h2,
-		p {
+		p,
+		p span {
 			color: #ffffff;
 		}
 	}
@@ -320,6 +336,10 @@ p {}
 		Margin-bottom: 9px;
 		line-height: 1.1;
 	}
+
+	sup {
+		font-size: 5px;
+	}
 }
 
 .mbimg {
@@ -344,7 +364,8 @@ p {}
 	.up54 th.callout-inner {
     background: #ffffff !important;
     background-color: rgba($color: #ffffff, $alpha: 0.8) !important;
-		h2 {
+		h2,
+		p span {
 			color: #2a59bb !important;
 		}
 	}
@@ -488,7 +509,8 @@ p {}
 			padding: 20px 10px 0px !important;
 		}
 
-		h2 {
+		h2,
+		p span {
 			font-size: 76px !important;
 		}
 
